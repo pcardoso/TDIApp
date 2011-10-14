@@ -33,7 +33,29 @@
 		EBC370FE144763E600141A41 /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EBC370FD144763E600141A41 /* Capture.bundle */; };
 		EBC37100144763E600141A41 /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBC370FF144763E600141A41 /* PhoneGap.plist */; };
 		EBC37104144763E600141A41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC37103144763E600141A41 /* AppDelegate.m */; };
+		EBDF6617144841BE0024DCEC /* www in Resources */ = {isa = PBXBuildFile; fileRef = EBDF6616144841BE0024DCEC /* www */; };
+		EBDF66301448477E0024DCEC /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDF662F1448477E0024DCEC /* CoreVideo.framework */; };
+		EBE32DAC144853A900D77604 /* libZXingWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDF6647144850FC0024DCEC /* libZXingWidget.a */; };
+		EBE32DAD144853BD00D77604 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDF66311448478D0024DCEC /* libiconv.dylib */; };
+		EBE32DB01448659400D77604 /* BarcodeScanner.mm in Sources */ = {isa = PBXBuildFile; fileRef = EBE32DAF1448659400D77604 /* BarcodeScanner.mm */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBDF6646144850FC0024DCEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBDF663F144850FB0024DCEC /* ZXingWidget.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = ZXingWidget;
+		};
+		EBDF6648144851010024DCEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBDF663F144850FB0024DCEC /* ZXingWidget.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = ZXingWidget;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EBC370BF144763E500141A41 /* tdiapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tdiapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,10 +72,10 @@
 		EBC370D7144763E500141A41 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EBC370D9144763E500141A41 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		EBC370DB144763E500141A41 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		EBC370DF144763E500141A41 /* tdiapp-Info.plist */ = {isa = PBXFileReference; path = "tdiapp-Info.plist"; sourceTree = "<group>"; };
+		EBC370DF144763E500141A41 /* tdiapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tdiapp-Info.plist"; sourceTree = "<group>"; };
 		EBC370E1144763E500141A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EBC370E3144763E500141A41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EBC370E5144763E500141A41 /* tdiapp-Prefix.pch */ = {isa = PBXFileReference; path = "tdiapp-Prefix.pch"; sourceTree = "<group>"; };
+		EBC370E5144763E500141A41 /* tdiapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tdiapp-Prefix.pch"; sourceTree = "<group>"; };
 		EBC370E6144763E500141A41 /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
 		EBC370EB144763E500141A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EBC370EF144763E500141A41 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -64,9 +86,15 @@
 		EBC370FB144763E500141A41 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		EBC370FD144763E600141A41 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		EBC370FF144763E600141A41 /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
-		EBC37102144763E600141A41 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		EBC37102144763E600141A41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		EBC37103144763E600141A41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		EBC37106144763E600141A41 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		EBC37106144763E600141A41 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		EBDF6616144841BE0024DCEC /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = tdiapp/www; sourceTree = "<group>"; };
+		EBDF662F1448477E0024DCEC /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		EBDF66311448478D0024DCEC /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		EBDF663F144850FB0024DCEC /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = ../../zxing/iphone/ZXingWidget/ZXingWidget.xcodeproj; sourceTree = "<group>"; };
+		EBE32DAE1448659400D77604 /* BarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BarcodeScanner.h; path = Plugins/BarcodeScanner.h; sourceTree = "<group>"; };
+		EBE32DAF1448659400D77604 /* BarcodeScanner.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = BarcodeScanner.mm; path = Plugins/BarcodeScanner.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,11 +102,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE32DAC144853A900D77604 /* libZXingWidget.a in Frameworks */,
+				EBC370CA144763E500141A41 /* AddressBook.framework in Frameworks */,
+				EBC370CC144763E500141A41 /* AddressBookUI.framework in Frameworks */,
+				EBDF66301448477E0024DCEC /* CoreVideo.framework in Frameworks */,
+				EBE32DAD144853BD00D77604 /* libiconv.dylib in Frameworks */,
 				EBC370C4144763E500141A41 /* Foundation.framework in Frameworks */,
 				EBC370C6144763E500141A41 /* UIKit.framework in Frameworks */,
 				EBC370C8144763E500141A41 /* CoreGraphics.framework in Frameworks */,
-				EBC370CA144763E500141A41 /* AddressBook.framework in Frameworks */,
-				EBC370CC144763E500141A41 /* AddressBookUI.framework in Frameworks */,
 				EBC370CE144763E500141A41 /* AudioToolbox.framework in Frameworks */,
 				EBC370D0144763E500141A41 /* AVFoundation.framework in Frameworks */,
 				EBC370D2144763E500141A41 /* CoreLocation.framework in Frameworks */,
@@ -104,6 +135,8 @@
 		EBC370B1144763E500141A41 = {
 			isa = PBXGroup;
 			children = (
+				EBDF663F144850FB0024DCEC /* ZXingWidget.xcodeproj */,
+				EBDF6616144841BE0024DCEC /* www */,
 				EBC370DD144763E500141A41 /* tdiapp */,
 				EBC370C2144763E500141A41 /* Frameworks */,
 				EBC370C0144763E500141A41 /* Products */,
@@ -121,6 +154,8 @@
 		EBC370C2144763E500141A41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EBDF66311448478D0024DCEC /* libiconv.dylib */,
+				EBDF662F1448477E0024DCEC /* CoreVideo.framework */,
 				EBC370C3144763E500141A41 /* Foundation.framework */,
 				EBC370C5144763E500141A41 /* UIKit.framework */,
 				EBC370C7144763E500141A41 /* CoreGraphics.framework */,
@@ -221,9 +256,19 @@
 		EBC37105144763E600141A41 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				EBE32DAE1448659400D77604 /* BarcodeScanner.h */,
+				EBE32DAF1448659400D77604 /* BarcodeScanner.mm */,
 				EBC37106144763E600141A41 /* README */,
 			);
 			name = Plugins;
+			sourceTree = "<group>";
+		};
+		EBDF6640144850FB0024DCEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBDF6647144850FC0024DCEC /* libZXingWidget.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +288,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				EBDF6649144851010024DCEC /* PBXTargetDependency */,
 			);
 			name = tdiapp;
 			productName = tdiapp;
@@ -268,12 +314,28 @@
 			mainGroup = EBC370B1144763E500141A41;
 			productRefGroup = EBC370C0144763E500141A41 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EBDF6640144850FB0024DCEC /* Products */;
+					ProjectRef = EBDF663F144850FB0024DCEC /* ZXingWidget.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EBC370BE144763E500141A41 /* tdiapp */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EBDF6647144850FC0024DCEC /* libZXingWidget.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libZXingWidget.a;
+			remoteRef = EBDF6646144850FC0024DCEC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EBC370BA144763E500141A41 /* Resources */ = {
@@ -290,6 +352,7 @@
 				EBC370FC144763E500141A41 /* Default@2x.png in Resources */,
 				EBC370FE144763E600141A41 /* Capture.bundle in Resources */,
 				EBC37100144763E600141A41 /* PhoneGap.plist in Resources */,
+				EBDF6617144841BE0024DCEC /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +381,7 @@
 			files = (
 				EBC370E4144763E500141A41 /* main.m in Sources */,
 				EBC37104144763E600141A41 /* AppDelegate.m in Sources */,
+				EBE32DB01448659400D77604 /* BarcodeScanner.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +393,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBDF6649144851010024DCEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZXingWidget;
+			targetProxy = EBDF6648144851010024DCEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EBC370E0144763E500141A41 /* InfoPlist.strings */ = {
@@ -410,6 +482,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tdiapp/tdiapp-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../zxing/iphone/ZXingWidget/Classes/\"/**",
+					"\"$(SRCROOT)/../../zxing/cpp/core/src\"",
+				);
 				INFOPLIST_FILE = "tdiapp/tdiapp-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -437,6 +513,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tdiapp/tdiapp-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../zxing/iphone/ZXingWidget/Classes/\"/**",
+					"\"$(SRCROOT)/../../zxing/cpp/core/src\"",
+				);
 				INFOPLIST_FILE = "tdiapp/tdiapp-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -474,6 +554,7 @@
 				EBC3710B144763E600141A41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

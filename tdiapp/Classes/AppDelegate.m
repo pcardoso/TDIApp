@@ -38,9 +38,28 @@
 		self.invokeString = [url absoluteString];
 		NSLog(@"tdiapp launchOptions = %@",url);
 	}
-	
-	return [super application:application didFinishLaunchingWithOptions:launchOptions];
+        
+	BOOL ret = [super application:application didFinishLaunchingWithOptions:launchOptions];
+    
+//    UIView *view = [self.webView superview];    
+//    UIButton *button = [UIButton buttonWithType:UIButtonTypeInfoDark];
+//
+//    button.frame = CGRectMake(view.frame.size.width - 40, view.frame.size.height - 40, 20, 20);
+//    button.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleLeftMargin;
+//    [button addTarget:self action:@selector(infoTapped:) forControlEvents:UIControlEventTouchUpInside];
+//    
+//    [view addSubview:button];
+
+    return ret;    
 }
+
+
+//- (void)infoTapped:(id)sender
+//{
+//    TDIPrefs *prefs = [[[TDIPrefs alloc] initWithNibName:@"TDIPrefs" bundle:nil] autorelease];
+//    prefs.modalTransitionStyle = UIModalTransitionStylePartialCurl;
+//    [self.viewController presentModalViewController:prefs animated:YES];
+//}
 
 // this happens while we are running ( in the background, or from within our own app )
 // only valid if tdiapp.plist specifies a protocol to handle
