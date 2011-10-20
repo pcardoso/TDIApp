@@ -301,6 +301,7 @@
 		EBC370B3144763E500141A41 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = SAPO;
 			};
 			buildConfigurationList = EBC370B6144763E500141A41 /* Build configuration list for PBXProject "tdiapp" */;
@@ -482,6 +483,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tdiapp/tdiapp-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/../../zxing/iphone/ZXingWidget/Classes/\"/**",
 					"\"$(SRCROOT)/../../zxing/cpp/core/src\"",
@@ -513,6 +515,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tdiapp/tdiapp-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/../../zxing/iphone/ZXingWidget/Classes/\"/**",
 					"\"$(SRCROOT)/../../zxing/cpp/core/src\"",

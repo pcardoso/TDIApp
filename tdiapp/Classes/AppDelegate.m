@@ -114,7 +114,14 @@
  */
 - (BOOL)webView:(UIWebView *)theWebView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
 {
-	return [ super webView:theWebView shouldStartLoadWithRequest:request navigationType:navigationType ];
+        //	return [ super webView:theWebView shouldStartLoadWithRequest:request navigationType:navigationType ];
+    NSURL *url = [request URL];
+    if ([[url scheme] isEqualToString:@"http"] || [[url scheme] isEqualToString:@"https"]) {
+        return YES;
+    }
+    else {
+        return [ super webView:theWebView shouldStartLoadWithRequest:request navigationType:navigationType ];
+    }    
 }
 
 
