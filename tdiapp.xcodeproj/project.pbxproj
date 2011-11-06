@@ -26,10 +26,6 @@
 		EBC370EC144763E500141A41 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBC370EA144763E500141A41 /* Localizable.strings */; };
 		EBC370F0144763E500141A41 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBC370EE144763E500141A41 /* Localizable.strings */; };
 		EBC370F3144763E500141A41 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EBC370F2144763E500141A41 /* icon.png */; };
-		EBC370F5144763E500141A41 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBC370F4144763E500141A41 /* icon@2x.png */; };
-		EBC370F7144763E500141A41 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = EBC370F6144763E500141A41 /* icon-72.png */; };
-		EBC370FA144763E500141A41 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EBC370F9144763E500141A41 /* Default.png */; };
-		EBC370FC144763E500141A41 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBC370FB144763E500141A41 /* Default@2x.png */; };
 		EBC370FE144763E600141A41 /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EBC370FD144763E600141A41 /* Capture.bundle */; };
 		EBC37100144763E600141A41 /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBC370FF144763E600141A41 /* PhoneGap.plist */; };
 		EBC37104144763E600141A41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC37103144763E600141A41 /* AppDelegate.m */; };
@@ -38,6 +34,8 @@
 		EBE32DAC144853A900D77604 /* libZXingWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDF6647144850FC0024DCEC /* libZXingWidget.a */; };
 		EBE32DAD144853BD00D77604 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDF66311448478D0024DCEC /* libiconv.dylib */; };
 		EBE32DB01448659400D77604 /* BarcodeScanner.mm in Sources */ = {isa = PBXBuildFile; fileRef = EBE32DAF1448659400D77604 /* BarcodeScanner.mm */; };
+		EBED8DDF14516D5F007629AA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EBED8DDD14516D5F007629AA /* Default.png */; };
+		EBED8DE014516D5F007629AA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBED8DDE14516D5F007629AA /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,10 +78,6 @@
 		EBC370EB144763E500141A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EBC370EF144763E500141A41 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EBC370F2144763E500141A41 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icons/icon.png; sourceTree = "<group>"; };
-		EBC370F4144763E500141A41 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Resources/icons/icon@2x.png"; sourceTree = "<group>"; };
-		EBC370F6144763E500141A41 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "Resources/icons/icon-72.png"; sourceTree = "<group>"; };
-		EBC370F9144763E500141A41 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/splash/Default.png; sourceTree = "<group>"; };
-		EBC370FB144763E500141A41 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		EBC370FD144763E600141A41 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		EBC370FF144763E600141A41 /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
 		EBC37102144763E600141A41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +89,8 @@
 		EBDF663F144850FB0024DCEC /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = ../../zxing/iphone/ZXingWidget/ZXingWidget.xcodeproj; sourceTree = "<group>"; };
 		EBE32DAE1448659400D77604 /* BarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BarcodeScanner.h; path = Plugins/BarcodeScanner.h; sourceTree = "<group>"; };
 		EBE32DAF1448659400D77604 /* BarcodeScanner.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = BarcodeScanner.mm; path = Plugins/BarcodeScanner.mm; sourceTree = "<group>"; };
+		EBED8DDD14516D5F007629AA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/splash/Default.png; sourceTree = "<group>"; };
+		EBED8DDE14516D5F007629AA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,8 +225,6 @@
 			isa = PBXGroup;
 			children = (
 				EBC370F2144763E500141A41 /* icon.png */,
-				EBC370F4144763E500141A41 /* icon@2x.png */,
-				EBC370F6144763E500141A41 /* icon-72.png */,
 			);
 			name = icons;
 			sourceTree = "<group>";
@@ -238,8 +232,8 @@
 		EBC370F8144763E500141A41 /* splash */ = {
 			isa = PBXGroup;
 			children = (
-				EBC370F9144763E500141A41 /* Default.png */,
-				EBC370FB144763E500141A41 /* Default@2x.png */,
+				EBED8DDD14516D5F007629AA /* Default.png */,
+				EBED8DDE14516D5F007629AA /* Default@2x.png */,
 			);
 			name = splash;
 			sourceTree = "<group>";
@@ -347,13 +341,11 @@
 				EBC370EC144763E500141A41 /* Localizable.strings in Resources */,
 				EBC370F0144763E500141A41 /* Localizable.strings in Resources */,
 				EBC370F3144763E500141A41 /* icon.png in Resources */,
-				EBC370F5144763E500141A41 /* icon@2x.png in Resources */,
-				EBC370F7144763E500141A41 /* icon-72.png in Resources */,
-				EBC370FA144763E500141A41 /* Default.png in Resources */,
-				EBC370FC144763E500141A41 /* Default@2x.png in Resources */,
 				EBC370FE144763E600141A41 /* Capture.bundle in Resources */,
 				EBC37100144763E600141A41 /* PhoneGap.plist in Resources */,
 				EBDF6617144841BE0024DCEC /* www in Resources */,
+				EBED8DDF14516D5F007629AA /* Default.png in Resources */,
+				EBED8DE014516D5F007629AA /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +427,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -451,6 +446,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -459,7 +455,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -468,6 +467,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
